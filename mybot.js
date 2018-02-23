@@ -32,4 +32,4 @@ client.on("message", msg => {
 client.on('ready', () => {
     console.log('Ready! v0.0.3');
 });
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
